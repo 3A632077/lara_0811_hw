@@ -8,6 +8,6 @@ class NewsController extends Controller
 {
     public function index()
     {
-        return view('News');
+        return view('news');
     }
 }
