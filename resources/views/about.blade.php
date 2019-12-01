@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>關於我們</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -64,6 +64,8 @@
     </style>
 </head>
 <body>
+<a href="{{route('home.index')}}">首頁</a>
+<a href="{{route('news.index')}}">新聞</a>
 <div class="flex-center position-ref full-height">
     @if (Route::has('login'))
         <div class="top-right links">
@@ -81,7 +83,7 @@
 
     <div class="content">
         <div class="title m-b-md">
-            Laravel
+            關於我們
         </div>
 
         <div class="links">
